@@ -14,3 +14,9 @@ Este comando montará el container.
 Luego para poder ejecutar dicho container, se debe escribir el siguiente comando:
 
 docker run -d -p 8080:80 dokuwiki
+
+# Acceso
+
+Para poder accesar a la pagina en el navegador, solo hay que accesar localhost:8080, y se abrirá el index de dokuwiki
+
+En todo caso no es necesario usar el puerto 8080, se puede cambiar a conveniencia propia.
